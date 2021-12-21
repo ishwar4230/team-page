@@ -1,7 +1,6 @@
-* {
-    
-    margin: 0;
-    padding: 0;
+*{
+    margin:0;
+    padding:0;
 }
 
 .img-wrapper {
@@ -83,3 +82,4 @@
     margin:auto;
     width:350px;
 }
+
