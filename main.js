@@ -1,12 +1,12 @@
 jQuery(document).ready(function($) {
     "use strict";
-    //  TESTIMONIALS CAROUSEL HOOK
+    
     $('.customers-testimonials').owlCarousel({
-        loop: true,
+        loop:true,
         center: true,
         items: 3,
         margin: 0,
-        autoplay: true,
+        autoplay: false,
         dots:true,
         autoplayTimeout: 8500,
         smartSpeed: 1000,
@@ -14,10 +14,8 @@ jQuery(document).ready(function($) {
           0: {
             items: 1
           },
-          768: {
-            items: 2
-          },
-          1170: {
+          
+          900: {
             items: 3
           }
         }

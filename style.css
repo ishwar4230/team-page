@@ -1,11 +1,4 @@
-.shadow-effect {
-    background: #fff;
-    padding: 20px;
-    border-radius: 4px;
-    text-align: center;
-border:1px solid #ECECEC;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
-}
+
 .customers-testimonials .shadow-effect p {
     font-family: inherit;
     font-size: 17px;
@@ -26,8 +19,8 @@ border:1px solid #ECECEC;
 }
 .customers-testimonials .item {
     text-align: center;
-    padding: 50px;
-        margin-bottom:80px;
+    padding: 0;
+    margin-bottom:80px;
     opacity: .2;
     -webkit-transform: scale3d(0.8, 0.8, 1);
     transform: scale3d(0.8, 0.8, 1);
