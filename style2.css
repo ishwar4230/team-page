@@ -275,7 +275,7 @@ main{
         clip-path:circle(50px at 90% -20%);
         transition: all 1s ease-out;
         pointer-events: none;
-        font-size:30px;
+         font-size:30px;
 
     }
     .login-button{
