@@ -95,15 +95,13 @@ body{
     width:350px;
 }
 
+/*
 nav{
-    height:6rem;
+    
     width:100vw;
     display:flex;
     position:fixed;
-    z-index:100;
-    color:#f2f5f7;
-    background-color: #270542;
-    box-shadow:0 3px 20px rgba(0,0,0,0.2);
+    
 
 }
 
@@ -247,7 +245,7 @@ main{
     }
     nav{
         position:fixed;
-        z-index:10;
+        
     }
     .logo{
         padding: 2vh 4vw;
@@ -260,7 +258,7 @@ main{
         right:5%;
         top:50%;
         transform:translate(-5%,-50%);
-        z-index:5;
+        
         transition:all 0.7s ease;
 
     }
@@ -324,4 +322,4 @@ main{
     .toggle .bars3{
         transform:rotate(45deg) translate(-5px,-6px);
     }
-}
+}*/
