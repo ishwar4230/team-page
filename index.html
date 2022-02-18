@@ -15,6 +15,18 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="bgstyle.css">
+
+    <!-- here new nav code used -->
+
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <link rel="stylesheet" href="stylefooter.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="stylenav.css">
+
+    <!-- /here thet ends -->
 </head>
 
 <body>
@@ -26,7 +38,43 @@
 
     </div>
 
-    <nav>
+    <!-- here new header starts -->
+
+    <header id="header">
+        <div class="megatext" style="position: fixed; left: 45px; top: 10px;  font-weight: 900; font-size: 0.7rem;">
+            <h1 style="color: rgb(189, 182, 182);"><span style="  color: #da5e5e; font-weight: 600; font-size: 1.3rem;">Megalith
+                </span> 2022
+            </h1>
+        </div>
+
+        <div class="containerr">
+            <div id="logo" class="pull-left">
+                <a href="#" class="scrollto"><img src="logoi.png"></a>
+            </div>
+            <div class="hamburger">
+                <div class="bars1"></div>
+                <div class="bars2"></div>
+                <div class="bars3"></div>
+            </div>
+            <nav id="nav-menu-container">
+                <ul class="nav-menu" style="margin-right: 15px;">
+                    <li class="menu-active"> <a href="#">HOME</a></li>
+                    <li><a href="./eventcards">EVENTS</a></li>
+                    <li><a href="./workshop/">WORKSHOPS</a></li>
+                    <li><a href="http://crp.megalith.co.in/">CRP</a></li>
+                    <li><a href="./sponsors/">SPONSORS</a></li>
+                    <li><a href="./team-page/">OUR TEAM</a></li>
+                    <li><a href="#">Register</a></li>
+
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- /here new header ends -->
+
+    <!-- <nav>
         <div class="logo">
             <a><b style="color:rgb(136, 25, 25); font-size:22px;">Mega</b>lith 2022</a>
         </div>
@@ -47,7 +95,7 @@
 
         </ul>
 
-    </nav>
+    </nav> -->
 
     <main>
 
@@ -612,7 +660,39 @@
 
     </main>
 
-    <footer class="footer">
+    <!-- here new footer starts -->
+
+    <footer class="footer" style=" z-index: 10">
+        <div class="row">
+            <div class="footer-logo">
+
+                <a class="navbar-brand" href="#">Megalith 2022</a>
+                <p>Department of Civil Engineering, IIT Kharagpur
+                    <br /> West Bengal - 721302.
+                </p>
+                <br>
+
+                <div class="footer-icons">
+                    <a href="https://www.facebook.com/megalithkgp/?ref=br_rs" target="_blank" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/iitkgp.megalith" target="_blank" class="fa fa-instagram"></a>
+                    <a href="https://www.linkedin.com/company/megalith-iit-kharagpur/mycompany/" target="_blank" class="fa fa-linkedin"></a>
+                    <a href="https://www.youtube.com/channel/UColF5e7SjdkiOBrFrg0UTRw" target="_blank" class="fa fa-youtube"></a>
+                    <a href="https://twitter.com/megalithkgp" target="_blank" class="fa fa-twitter"></a>
+
+                </div>
+
+            </div>
+            <div class="footercontact">
+                <p>Contact Us</p>
+                <p><a href="">Mahendra Bera: 8972663985 </a></p>
+                <p><a href="">Ashutosh Garg: 6376098178</a></p>
+                <p><a href="">Satyaki Biswas: 9330416914 </a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- /here new footer ends -->
+    <!-- <footer class="footer">
 
 
         <div class="ro">
@@ -639,11 +719,20 @@
             </div>
         </div>
 
-    </footer>
+    </footer> -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js"></script>
     <script src="main.js"></script>
+
+    <!-- here footer scripts -->
+
+    <!-- footer -->
+    <script src="script.js"></script>
+
+
+    <!-- nav -->
+    <script src="mainhfi.js"></script>
 
 </body>
 
